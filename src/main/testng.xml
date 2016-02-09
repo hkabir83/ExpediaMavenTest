@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExpediaMavenSuite" parallel="false" preserve-order="true">
+  <test name="ExpediaTest">
+    <classes>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC003_VerifyRoundtripFlightWtAddingHotel"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC004_VerifyRoundtripFlightWtAddingCar"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC005_VerifyRoundtripWtAutoCompleteText"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC001_002_VerifyOneWayFlight"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC003_VerifyOnewayFlightWtChildrenOneOrMore"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC004_VerifyOnewayFlightUsingDatePicker"/>
+    </classes>
+  </test> <!-- ExpediaTest -->
+</suite> <!-- ExpediaMavenSuite -->

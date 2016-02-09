@@ -1,0 +1,4 @@
+com\expedia\selenium\ExpediaMavenTest\utilities\ReadConfigFile.class
+com\expedia\selenium\ExpediaMavenTest\utilities\AbstractTest.class
+com\expedia\selenium\ExpediaMavenTest\utilities\BasePage.class
+com\expedia\selenium\ExpediaMavenTest\pages\HomeScreen.class

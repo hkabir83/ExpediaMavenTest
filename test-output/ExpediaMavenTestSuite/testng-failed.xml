@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExpediaMavenTestSuite]" parallel="none">
+  <test name="ExpediaTest(failed)" parallel="none">
+    <classes>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="flightRoundTrip"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip -->
+    </classes>
+  </test> <!-- ExpediaTest(failed) -->
+</suite> <!-- Failed suite [ExpediaMavenTestSuite] -->

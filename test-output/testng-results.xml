@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38323" started-at="2015-11-14T19:56:28Z" finished-at="2015-11-14T19:57:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38323" started-at="2015-11-14T19:56:28Z" finished-at="2015-11-14T19:57:06Z">
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines@2812cbfa]" name="setUp" is-config="true" duration-ms="37635" started-at="2015-11-14T14:55:51Z" finished-at="2015-11-14T14:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flightRoundTripWtPrefAirlines()[pri:0, instance:com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines@2812cbfa]" name="flightRoundTripWtPrefAirlines" duration-ms="24207" started-at="2015-11-14T14:56:28Z" description="Verify Flight RoundTrip with preferred airlines" finished-at="2015-11-14T14:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightRoundTripWtPrefAirlines -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines@2812cbfa]" name="navigateToHome" is-config="true" duration-ms="14102" started-at="2015-11-14T14:56:52Z" finished-at="2015-11-14T14:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines@2812cbfa]" name="closeBrowser" is-config="true" duration-ms="321" started-at="2015-11-14T14:57:07Z" finished-at="2015-11-14T14:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

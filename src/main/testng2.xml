@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExpediaTestSuite" parallel="none">
+  <test name="ExpediaTest">
+    <classes>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip"/>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines"/>
+    </classes>
+  </test> <!-- ExpediaTest -->
+</suite> <!-- ExpediaTestSuite -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExpediaMavenSuite]">
+  <test name="ExpediaTest(failed)">
+    <classes>
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC001_002_VerifyOneWayFlight">
+        <methods>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS002_TC001_002_VerifyOneWayFlight -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines">
+        <methods>
+          <include name="navigateToHome"/>
+          <include name="flightRoundTripWtPrefAirlines"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC002_VerifyRoundTripWtPreferredAirlines -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC004_VerifyOnewayFlightUsingDatePicker">
+        <methods>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS002_TC004_VerifyOnewayFlightUsingDatePicker -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC004_VerifyRoundtripFlightWtAddingCar">
+        <methods>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC004_VerifyRoundtripFlightWtAddingCar -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS002_TC003_VerifyOnewayFlightWtChildrenOneOrMore">
+        <methods>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS002_TC003_VerifyOnewayFlightWtChildrenOneOrMore -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip">
+        <methods>
+          <include name="setUp"/>
+          <include name="navigateToHome"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC001_VerifyRoundTrip -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC003_VerifyRoundtripFlightWtAddingHotel">
+        <methods>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC003_VerifyRoundtripFlightWtAddingHotel -->
+      <class name="com.expedia.selenium.ExpediaMavenTest.TS001_TC005_VerifyRoundtripWtAutoCompleteText">
+        <methods>
+          <include name="navigateToHome"/>
+          <include name="flightRoundTripWtAutoCompleteText"/>
+        </methods>
+      </class> <!-- com.expedia.selenium.ExpediaMavenTest.TS001_TC005_VerifyRoundtripWtAutoCompleteText -->
+    </classes>
+  </test> <!-- ExpediaTest(failed) -->
+</suite> <!-- Failed suite [ExpediaMavenSuite] -->
